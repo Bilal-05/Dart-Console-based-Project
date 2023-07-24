@@ -18,7 +18,7 @@ void main() {
     {"User": "Ammar", "Password": "Ammar@123"},
     {"User": "Bilal", "Password": "Bilal@123"}
   ];
-  print("*** WELCOME TO PASSWORD PROTECTED DIARY***");
+  print("*** WELCOME TO PASSWORD PROTECTED DIARY ***");
   while (runMenu) {
     stdin.echoMode = true;
     if (count == 3) {
