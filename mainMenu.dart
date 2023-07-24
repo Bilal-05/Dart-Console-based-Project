@@ -31,8 +31,12 @@ mainMenu(String user, List Diary, List Diary1, List Diary2) {
       case 4:
         func.deleteEntry(Diary);
         break;
-      default:
+      case 5:
         runMain = false;
+        print("Logging out");
+        break;
+      default:
+        print("Wrong Input!.\nPlease enter 1,2,3,4 or 5");
         break;
     }
   }
