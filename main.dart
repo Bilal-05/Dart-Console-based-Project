@@ -7,7 +7,7 @@ void main() {
   List Diary = [];
   List bilalDiary = [];
   List ammarDiary = [];
-  Map history = {};
+  Map history;
   List History = [];
   List value;
   String user1;
@@ -49,6 +49,7 @@ void main() {
             }
           }
           if (runLogin) {
+            history = {};
             history["User"] = user1;
             history["LoginTime"] = DateTime.now();
             History.add(history);
