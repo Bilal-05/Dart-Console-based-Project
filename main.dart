@@ -61,8 +61,8 @@ void main() {
         }
         break;
       case 2:
-        print("This feature is under-development");
-        //createUser(User);
+        createUser(User);
+        print("New users cannot access diary right now");
         break;
       case 3:
         if (History.length == 0) {
