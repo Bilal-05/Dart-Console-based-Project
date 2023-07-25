@@ -8,7 +8,7 @@ void addEntry(List Diary, String User) {
   stdout.write("Dear Diary,\n");
   Entry = stdin.readLineSync()!;
 
-  stdout.write("Enter Todays date: ");
+  stdout.write("Todays date: ");
   Date = stdin.readLineSync()!;
   print("==========================================");
   map["Entry"] = Entry;
@@ -72,6 +72,7 @@ void deleteEntry(List Diary) {
 void viewEntry(List Diary, String User) {
   bool value = false;
   if (Diary.length == 1) {
+    print("==========================================");
     print("Dear Diary,");
     print(Diary[0]["Entry"]);
     print("Date: ${Diary[0]["Date"]}");
